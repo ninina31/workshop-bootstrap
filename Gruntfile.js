@@ -26,15 +26,15 @@ module.exports = function (grunt) {
         },
 
         less: {
-            compile: {
-                options: {
-                    paths: ["app/bower_components/bootstrap/less"] // Aqui se pueden agregar directorios adicionales para que @import escanee.
-                },
-                files: {
-                    "app/styles/bootstrap.css": "app/bower_components/bootstrap/less" // Compila todos los .less en un css.
-                }
+          compile: {
+            options: {
+                paths: ["app/bower_components/bootstrap/less"]
+            },
+            files: {
+                "app/styles/style.css": "app/bower_components/bootstrap/less/bootstrap.less"
             }
-        },
+        }
+      },
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
@@ -371,4 +371,6 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+    grunt.loadNpmTasks('grunt-contrib-less');
 };
