@@ -7,6 +7,9 @@ Primera sesion del workshop de bootstrap. En esta sesión se tratará:
 2. Técnicas de configuración y personalización de Bootstrap 3 usando less
 
 # Instalación
+Cámbiate al branch "setup" del repositorio, ya que este viene con algunas
+configuraciones que harán mas ágil el desarrollo del taller.
+
 Para este taller y para el uso general de Bootstrap se recomienda el uso de las
 siguientes herramientas:
 
@@ -34,7 +37,7 @@ siguientes herramientas:
     sesión del workshop no es suficiente ni siequiera para rasgar la superficie
     del poder de Grunt.
 
-## npm y bower install
+## npm y bower install  
     Debes correr los siguientes comandos para instalar todo lo mencionado
     anteriormente:
 
