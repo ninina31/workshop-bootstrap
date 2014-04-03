@@ -1,0 +1,94 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+.rojo{
+  background: rgba(215, 40, 40, 0.5);
+}
+
+.azul{
+  background: rgba(0,23,255, 0.5);
+}
+
+.amarillo{
+  background: rgba(233,174,17, 0.5);
+}
+
+.verde{
+  background: rgba(33,115,70, 0.5);
+}
+
+.morado{
+  background: rgba(255,0,255, 0.5);
+}
+
+.naranja{
+  background: rgba(246,	141, 0, 1);
+}
+
+.custom-fixed-top{
+  .naranja;
+  li > a {
+    color: rgba(33,115,70, 0.5);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    min-height: 60px;
+  }
+  li.active > a {
+    background-color: rgba(33,115,70, 0.5);
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+    min-height: 60px;
+  }
+  min-height: 60px;
+}
+
+.arrowlistamorado {
+  position: relative;
+  .morado;
+}
+.arrowlistamorado:after {
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrowlistamorado:after {
+  border-color: rgba(255,0,255, 0);
+  border-left-color: rgba(255,0,255, 0.5);
+  border-width: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.list-group{
+  a.list-group-item.active{
+    .morado;
+    color: white;
+    border-color: rgba(255,0,255, 0.5);
+  }
+}
+
+.theme-showcase{
+  padding-top: 100px;
+}
+
+.fechas{
+  .col-xs-3{
+    padding: 0!important;
+    .input-group-addon{
+      height: 34px;
+    }
+    border-left: 1px solid #cccccc;
+  }
+}
+
+.custom-breadcrumb{
+  .breadcrumb;
+}
+.custom-breadcrumb > li + li:before {
+    color: red;
+    content: ">>";
+    padding: 0 5px;
+}
