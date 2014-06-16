@@ -105,5 +105,5 @@ Este archivo es un copy-paste del original, por lo que no lo colocaremos aqui :P
 que se quiere hacer en este archivo es simplemente cambiar el valor de las variables.
 
 Por ejemplo, si el fondo era blanco, aqui lo puedes poner negro, asi poco a poco, dando valores a 
-estas variables terminarás creando tu propio tema! Que genial!
+estas variables terminarás creando tu propio tema!
 
